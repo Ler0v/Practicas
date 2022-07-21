@@ -3,14 +3,16 @@ alert('Bienvenido')
 
 function hacer (){
     
-    for (i = 0; i < 3; i++){
-        let nombre = prompt('Ingrese nombre')
-        
-        if (5)
-
-        alert(`El 20% de su producto es: ${vPorciento} 
-            El 50% de su producto es: ${cPorciento}
-        `)
-
+    for (i = 0; i < 10; i++){
+        let nombre1 = prompt('Ingrese nombre 1')
+        let nombre2 = prompt('Ingrese nombre 2')
+        if (nombre1 != nombre2){
+            alert('El nombre es distinto')
+        }
+        else{
+            if(nombre1 == nombre2){
+                alert("El nombre es igual")
+            }
+        }
     }
 }
