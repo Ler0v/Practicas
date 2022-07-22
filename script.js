@@ -1,23 +1,10 @@
-
 function hacer () {
 
-    let productos = ["leche","pan","queso","yerba"]
+    let numero = prompt('Ingrese un numero')
+    let palabra = prompt('Ingrese una palabra')
 
-    let entrada = prompt('Ingrese el producto')
-    
-    let noEstaCargado = true
-
-    productos.forEach(element => {
-    
-            if (entrada == element){
-                alert('El producto esta cargado.')
-                noEstaCargado = false
-            }
-            
-    });
-
-    if (noEstaCargado == true){
-        alert('El producto no esta cargado.')
+    for (i = 0; i < numero; i++){
+        console.log(palabra)
     }
 
 }
