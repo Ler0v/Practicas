@@ -1,15 +1,10 @@
 function hacer () {
 
-    let numero = prompt('Ingrese un numero')
+    usuarios = []
 
-    for (i = 0; i < numero; i++){
-        if (numero)
-            console.log('lado')
-        else if (numero > 4){
-            break;
-        }
+    for (i = 0; i < 10; i++){
+        const usuario = prompt(`Cargar usuario n${i}`);
+        usuarios.push(usuario);
     }
-    
-    console.log(numero)
-
+    console.log(usuarios)
 }
