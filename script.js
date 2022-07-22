@@ -1,10 +1,14 @@
 function hacer () {
 
-    usuarios = []
-
-    for (i = 0; i < 10; i++){
-        const usuario = prompt(`Cargar usuario n${i}`);
-        usuarios.push(usuario);
+    let nombre = prompt('Ingrese nombre')
+    let nombres = []
+    
+    while (nombre != "voldemort"){
+        nombres.push(nombre)
+        nombre = prompt('Ingrese nombre')
     }
-    console.log(usuarios)
+
+    alert(nombres)
+    
+
 }
