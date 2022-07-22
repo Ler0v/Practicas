@@ -1,10 +1,15 @@
 function hacer () {
 
     let numero = prompt('Ingrese un numero')
-    let palabra = prompt('Ingrese una palabra')
 
     for (i = 0; i < numero; i++){
-        console.log(palabra)
+        if (numero)
+            console.log('lado')
+        else if (numero > 4){
+            break;
+        }
     }
+    
+    console.log(numero)
 
 }
