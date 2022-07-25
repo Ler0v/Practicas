@@ -1,14 +1,22 @@
 function hacer () {
 
-    let nombre = prompt('Ingrese nombre')
-    let nombres = []
-    
-    while (nombre != "voldemort"){
-        nombres.push(nombre)
-        nombre = prompt('Ingrese nombre')
-    }
+    numero = prompt('Ingresar numero')
 
-    alert(nombres)
-    
+    while(numero != "ESC"){
+        if (numero == 1){
+            alert('Seleccionaste tomate')
+            break;
+        }else if (numero == 2){
+            alert('Seleccionaste papa')
+            break;
+        }else if (numero == 3){
+            alert('Seleccionaste carne')
+            break;
+        }else if (numero == 4){
+            alert('Seleccionaste pollo')
+            break;
+        }
+
+    }
 
 }
